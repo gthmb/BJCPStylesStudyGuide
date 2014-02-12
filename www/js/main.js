@@ -1,8 +1,7 @@
 $.ajax({
-  dataType: "html",
+  dataType: "json",
   url: 'data/style-data.json',
   success: function(json){
-  	console.log(arguments);
-  	$('.app').html('<pre>' + json + '</pre>');
+  	console.log(json);
   }
 });
