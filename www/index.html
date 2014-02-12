@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="width=device-width, height=width=device-width user-scalable=no, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <title>BJCP Styles</title>
     </head>
@@ -13,11 +13,76 @@
                     <a class="nav-link">Left</a>
                 </div>
                 <div class="menu-item menu-item-right">
-                    <a class="nav-link">Rightz</a>
+                    <a class="nav-link">Right on</a>
                 </div>
+            </div>
+
+            <div class="fake-inputs">
+
             </div>
         </div>
 
+        <div>
+            <label>Color</label>
+            <input type="color" />
+        </div>
+
+        <div>
+            <label>Date</label>
+            <input type="date" />
+        </div>
+
+        <div>
+            <label>Date Time</label>
+            <input type="datetime-local" />
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" />
+        </div>
+
+        <div>
+            <label>Number</label>
+            <input type="number" />
+        </div>
+
+        <div>
+            <label>Telephone</label>
+            <input type="tel" />
+        </div>
+
+        <div>
+            <label>Search</label>
+            <input type="search" />
+        </div>
+
+        <div>
+            <label>Range</label>
+            <input type="range" />
+        </div>
+        
+        <div class="fake-form">
+            <div class="control-group">
+                <label>zip code</label>
+                <input class="zip-input" type="text"/>
+            </div>
+            <div class="control-group">
+                <label>cable provider</label>
+                <select class="provider-select">
+                    <option value="" selected disabled>Choose A Provider</option>
+                    <option value="fake_provider_1">Fake Provider 1</option>
+                    <option value="fake_provider_2">Fake Provider 2</option>
+                    <option value="fake_provider_3">Fake Provider 3</option>
+                    <option value="fake_provider_4">Fake Provider 4</option>
+                </select>
+            <button class="search-btn">Search</button>
+            </div>
+            <div class="control-group">
+                <button class="url-request-btn">url request</button>
+                <button class="url-cancel-btn">url cancel</button>
+            </div>
+        </div>
 
 
         <script type="text/javascript" src="vendor/jquery/jquery-1.10.2.min.js"></script>

@@ -74,6 +74,28 @@ body {
     right: 10px;
 }
 
+.fake-form {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+
+.fake-form .control-group {
+    display: inline-block;
+}
+
+.close-btn, .reset-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.reset-btn {
+    left: 5px;
+    right: initial;
+}
+
 /*
 @media 
 only screen and (orientation:landscape) and (min-resolution: 200dpi),
