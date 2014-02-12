@@ -23,16 +23,16 @@ body {
 }
 
 /* Portrait layout (default) */
-.app {
+/*.app {
     background-color: orange;
-}
+}*/
 
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+/*@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-color: cyan;
     }
-}
+}*/
 
 .app .navbar {
     width: 100%;
@@ -72,4 +72,10 @@ body {
 
 .menu-item-right {
     right: 10px;
+}
+
+@media only screen and (orientation:landscape) and (min-resolution: 200dpi) {
+    .app .navbar {
+        height: 150px;
+    }
 }
